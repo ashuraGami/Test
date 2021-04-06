@@ -1,4 +1,10 @@
+ALGO DE MI INFORMACION
+
 Mi nombre es Deibby Xavier Junior Mogollón Burneo
 
 Soy bachiller en ingeniería de sistemas.
-He trabajado toda mi vida laboral en el área de TI o relacionado a tecnología de la información
+He trabajado toda mi vida laboral en el área de TI o relacionado a tecnología de la información.
+
+Me gusta todo lo relacionado a TI.
+
+Este archivo es para pruebas con git.
