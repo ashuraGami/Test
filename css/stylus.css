@@ -24,7 +24,7 @@
 
 #container
 {
-    color:gray;
+    color:rgba(0,0,0,0.8);
     width: 70%;
     padding:0;
     text-align: left;
