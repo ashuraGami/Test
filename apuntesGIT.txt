@@ -1,0 +1,30 @@
+***************** APUNTES DE GIT *****************
+
+* Para generar una LLAVE para una conexión SSH más simple con github es una gran idea.
+  Para ello primero debemos colocar el e-mail que tenemos en nuetsro git en las variables de configuracion de git bash local
+  $git config --global user.email "email@email.com"
+  ppodrmos revisar los cambios con
+  $git config -l
+
+  Para generar la llave, nos ubicaremos en la carpeta personal del usuario "~" (por buenas prácticas) usaremos el siguiente comando:
+  $ssh-keygen -t rsa -b 4096 -C "email@email.com"
+  Se gererarán dos llaves, una pública y una privada, la pública es la que posee el ".pub"
+     -> deberías tener dos archivos "id_ras" y "id_rsa.pub"
+
+  La llave pública será la que copiaremos y colocaremos en github.
+  your_Profiles/SSH and GPG keys/new SSH key
+
+  Nuevamente en la consola, haremos:
+  $eval $(ssh-agent -s)
+  Para evaluar si el servicio de cifrado está activo
+
+  finalmente, le diremos al sistema de la existencia de la llave privada:
+  $ssh-add ~/.ssh/id_rsa
+  ssh-add <ruta/llave>
+
+* Para poder ver el arbol de cambios en consola, podemos escribir lo siguiente:
+  $git log --all --graph --decorate --oneline
+
+  Pero memorizar ese comando, a veces, es algo dificil. Colocarle un alias, puede funcionar mejor.
+  $alias gitTree="git log --all --graph --decorate --oneline"
+
