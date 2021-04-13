@@ -28,3 +28,24 @@
   Pero memorizar ese comando, a veces, es algo dificil. Colocarle un alias, puede funcionar mejor.
   $alias gitTree="git log --all --graph --decorate --oneline"
 
+* Para crear tags, se ejecuta:
+  $git tag -a <v0.1> -m "<message>" <hash>
+  con _$git tag_ se puede ver los tag que tenemos en el local
+  
+  Para saber el hash al que está referenciado un tag:
+  $git show-ref --tag
+
+  Para enviar los tags al repositorio en nube es:
+  $git push origin --tags
+
+* Borrar TAGS:
+  En el local se usa
+  $git tag-d <nombre_tag>
+
+  Para borrar en repositorio nube:
+  $git push origin :refs/tags/<nombre_tag>
+
+* BRANCHES
+  Para poder ver los cambios en los branches
+  $git show-branch --all
+  
