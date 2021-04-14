@@ -1,8 +1,8 @@
 body
 {
+    background-color:black;
     color:black;
     text-align: center;
-    font-family:fantasy;
     margin:0;
     padding:0;
 }
@@ -15,6 +15,11 @@ body
     font-weight:bolder;
     padding: 0.5em;
     font-size: 50px;
+}
+#header #logo
+{
+    width: 70px;
+    vertical-align: middle;
 }
 #header #tagline
 {
@@ -40,6 +45,7 @@ body
 }
 #post
 {
+    background:khaki;
     padding: 1em;
 }
 #footer
