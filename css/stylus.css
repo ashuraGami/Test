@@ -1,4 +1,5 @@
-#body{
+body
+{
     color:black;
     text-align: center;
     font-family:fantasy;
@@ -40,4 +41,10 @@
 #post
 {
     padding: 1em;
+}
+#footer
+{
+	background: #777;
+	color: white;
+	text-align: center;
 }
