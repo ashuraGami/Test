@@ -8,3 +8,5 @@ He trabajado toda mi vida laboral en el área de TI o relacionado a tecnología 
 Me gusta todo lo relacionado a TI.
 
 Este archivo es para pruebas con git.
+
+Soy un nuevo usuario que ha clonado el repositorio y este es mi primer cambio.
