@@ -48,4 +48,3 @@
 * BRANCHES
   Para poder ver los cambios en los branches
   $git show-branch --all
-  
